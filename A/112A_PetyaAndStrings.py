@@ -1,0 +1,10 @@
+s1 = input().lower()
+s2 = input().lower()
+while(len(s1)==len(s2)):
+    if s1 > s2:
+        print(1)
+    elif s1 < s2:
+        print(-1)
+    elif s1==s2 :
+        print(0)
+    break
